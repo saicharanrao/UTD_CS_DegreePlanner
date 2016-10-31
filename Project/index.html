@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="CSS/jquery.datetimepicker.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/jquery.timepicker.css"/>
+<script src="jQuery1/jquery.js"></script>
+<script src="jQuery1/jquery.datetimepicker.full.js"></script>
+<script src="jQuery1/jquery.timepicker.js"></script>
+<style type="text/css">
+
+.custom-date-style {
+	background-color: red !important;
+}
+
+.input{	
+}
+.input-wide{
+	width: 500px;
+}
+
+</style>
+</head>
+
+<body>
+	<h3>TimePicker</h3>
+	<input type="text" id="datetimepicker1"/><br><br>
+	<h3>DatePicker</h3>
+	<input type="text" id="datetimepicker2"/><br><br>	
+	
+	<h3>Jon example</h3>     
+	<p><input id="JonExample" type="text" class="time" /></p>
+	
+	<h3>Chosen value</h3>    
+	<p><input id="JonExample" type="text" class="time" /></p>
+	</br>
+
+</body>
+
+<script>
+
+$('#datetimepicker1').datetimepicker({
+timeFormat: 'HH:mm:ss',
+	'minTime': '9:00am',
+	datepicker:false,
+	format:'H:i',
+	step:30
+});
+$('#datetimepicker2').datetimepicker({
+	lang:'ch',
+	timepicker:false,
+	format:'d/m/Y',
+	formatDate:'Y/m/d',
+	minDate:'-1970/01/02', // yesterday is minimum date
+});
+
+$('#JonExample').timepicker({
+'minTime': '9:00am',
+'maxTime': '6:00pm' 
+});
+
+
+</script>
+</html>

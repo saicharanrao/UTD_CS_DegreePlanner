@@ -1,0 +1,139 @@
+
+.head1{
+height:40px;
+background:#C75B12;
+border:1px solid #CCC;
+position:fixed;
+top:0px;
+width:100%;	
+}
+.footer {
+height:30px;
+background:#C75B12;
+border:1px solid #CCC;
+width: 100%;
+bottom: 0px;
+position: absolute;
+color:white;
+}
+
+.nav{
+height:30px;
+top:200px;
+background:#008542;
+}
+
+.nav ul{
+margin:0;
+padding:0;
+}		
+
+.nav ul li{
+list-style:none;
+}
+
+.nav ul li a{
+color:white;
+text-decoration:none;
+float:left;
+display:block;
+padding:10px 30px;
+}
+input[type="checkbox"], 
+input[type="radio"],
+input.radio,
+input.checkbox {
+vertical-align:text-top;
+width:13px;
+height:13px;
+padding:0;
+margin:0;
+position:relative;
+overflow:hidden;
+top:2px;
+}
+
+.widget{
+margin-bottom:20px;
+}
+
+.widget h2{
+margin:0 0 10px 0;
+padding:0 5px;
+font-weight:normal;
+border-bottom:1px solid #ddd;
+}
+
+.widget .inner{
+margin:0 10px;
+}
+
+
+
+h1, h2{
+padding:0;
+margin:0 0 20px 0;
+font-weight:normal;
+}
+
+p{
+padding:0;
+margin:0 0 20px 0;
+}
+
+a:link, a:visited{
+text-decoration:underline;
+color:#000;
+}
+
+a:hover{
+ text-decoration:none;
+}
+
+
+
+ul li input[type="text"],ul li input[type="password"]{
+width:200px;
+}
+
+h1{
+font-size:1.8em;
+}
+
+h2{
+font-size:1.4em;
+}
+
+body{
+font-family:Arial;
+font-size:0.8em;
+}
+
+#container,footer{
+background:#fff;
+width:920px;
+margin:0 auto;
+padding:20px;
+}
+
+#container{
+min-height:500px;
+border-radius:5px 5px 0 0;
+}
+
+aside{
+width:260px;
+float:right;
+border-left:1px dashed #aaa;
+padding-left:15px;
+}
+
+.clear{
+clear:both;
+}
+
+ul{
+	padding:0;
+	margin:0 0 20px 0;
+	list-style:none;
+}
